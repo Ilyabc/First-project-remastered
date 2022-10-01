@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+	<link rel="stylesheet" href="./css/main.min.css">
+	<title>WebStudio</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header-meta">
+				<img class="header-meta__logo" src="./images/logo.svg" alt="">
+				<ul class="header-meta__list">
+					<li class="header-meta__item"><a class="header-meta__item--active" href="./index.html"> Studio<div class="line"></div></a></li>
+					<li class="header-meta__item"><a href="./portfolio.html"> Portfolio</a></li>
+					<li class="header-meta__item"><a href="./portfolio.html"> Contacts</a></li>
+				</ul>
+				<ul class="header-meta__contacts">
+					<li>
+						<a class="contacts-email">
+							<svg class="contacts-email__icon" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path class="contacts-email__symbol" d="M14.5 0H1.50001C0.672854 0 0 0.672853 0 1.50001V10.5C0 11.3271 0.672854 12 1.50001 12H14.5C15.3271 12 16 11.3271 16 10.5V1.50001C16 0.672853 15.3271 0 14.5 0ZM14.5 0.999994C14.5679 0.999994 14.6325 1.01409 14.6916 1.0387L8 6.83838L1.30833 1.0387C1.36742 1.01412 1.43204 0.999994 1.49998 0.999994H14.5ZM14.5 11H1.50001C1.22414 11 0.999996 10.7759 0.999996 10.5V2.09521L7.67236 7.87792C7.76661 7.95944 7.8833 7.99999 8 7.99999C8.1167 7.99999 8.23339 7.95948 8.32764 7.87792L15 2.09521V10.5C15 10.7759 14.7759 11 14.5 11Z" fill="#757575"/>
+							</svg>
+							<p>info@devstudio.com</p>
+						</a>
+					</li>
+					<li>
+						<a class="contacts-phone">
+							<svg class="contacts-phone__icon" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path class="contacts-phone__symbol" d="M8.5 0H1.5C0.672848 0 0 0.672848 0 1.5V14.5C0 15.3272 0.672848 16 1.5 16H8.5C9.32715 16 10 15.3272 10 14.5V1.5C10 0.672848 9.32715 0 8.5 0ZM1.5 1H8.5C8.77588 1 9 1.22412 9 1.5V12H1V1.5C1 1.22412 1.22412 1 1.5 1ZM8.5 15H1.5C1.22412 15 1 14.7759 1 14.5V13H9V14.5C9 14.7759 8.77588 15 8.5 15Z" fill="#757575"/>
+								<path class="contacts-phone__symbol" d="M2.35355 13.7389C2.54882 13.9213 2.54882 14.2169 2.35355 14.3992C2.15828 14.5816 1.84172 14.5816 1.64645 14.3992C1.45118 14.2169 1.45118 13.9213 1.64645 13.7389C1.84172 13.5566 2.15828 13.5566 2.35355 13.7389Z" fill="#757575"/>
+							</svg>	
+							<p>+48 782 782 949</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div id="burger" class="burger">
+				<div class="burger-line"></div>
+				<div class="burger-line"></div>
+				<div class="burger-line"></div>
+			</div>
+			<div  class="burgerDiv">
+				<div class="burger__body">
+					<div class="burger__content"></div>	
+					<a href="#" class="burger__close">
+						<img src="./images/close.svg" alt="крестик"/>
+					</a>	
+					<div class="burger__links">
+						<a class="burger__links-current" href="./index.html">Studio</a>						
+						<a href="./portfolio.html">Portfolio</a>						
+						<a href="#">Contacts</a>						
+					</div>
+					<div class="burger__info">
+						<p class="burger__links-number">+48728728949</p>
+						<p class="burger__links-email">info@devstudio.com</p>
+					</div>
+					<div>
+						<ul class="burger__social">
+							<li class="burger__social-item">Instagram</li>
+							<li class="burger__social-item">Twitter</li>
+							<li class="burger__social-item">Facebook</li>
+							<li class="burger__social-item">Linkedin</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="hero">
+				<div class="hero-overlay">
+					<div class="container">
+						<h1>Effective solutions for your business</h1>
+						<button data-modal-open type="submit" class="hero__buttonorder popup-link" href="#popup">
+							Order service
+						</button>
+					</div>	
+				</div>		
+		</section>
+		<section class="privileges">
+			
+			<div class="container">
+				<ul class="property">
+					<li class="property__item">
+						<div>
+							<img src="./images/antenna 1.svg" alt="">
+						</div>
+						<h1>ATTENTION TO DETAIL</h1>
+						<p>Ideological considerations, as well as the beginning of daily work on the formation of a position.</p>
+					</li>
+					<li class="property__item">
+						<div>
+							<img src="./images/clock 1.svg" alt="">
+						</div>
+						<h1>PUNCTUALITY</h1>
+						<p>The task of the organization, in particular the framework and place of training of personnel entails.</p>
+					</li>
+					<li class="property__item">
+						<div>
+							<img src="./images/diagram 1.svg" alt="">
+						</div>
+						<h1>PLANNING</h1>
+						<p>Our specialists have professional planning skills specifically to make your project better.</p>
+					</li>
+					<li class="property__item">
+						<div>
+							<img src="./images/astronaut 1.svg" alt="">
+						</div>
+						<h1>MODERN TECHNOLOGIES</h1>
+						<p>The significance of these problems is so obvious that the implementation of planned targets.</p>
+					</li>
+				</ul>
+			</div>	
+		</section>
+		<section class="ouroccupation">
+			<div class="container">
+				<h1>Our specialization</h1>
+					<ul class="ouroccupation__list">
+						<li  class="ouroccupation__item">
+							<div class="ouroccupation__text">
+								<p>Desktop Applications</p>
+							</div>
+						</li>	
+						<li class="ouroccupation__item">
+							<div class="ouroccupation__text">
+								<p>Mobile applications</p>
+							</div>
+						</li>
+						<li class="ouroccupation__item">
+							<div class="ouroccupation__text">
+								<p>Design solutions</p>
+							</div>
+						</li>
+					</ul>
+			</div>	
+		</section>			
+		 <section class="ourteam">
+			<div class="container">
+				<h1 class="ourteam__topic">Our team</h1>
+				<ul class="employees">
+					<li id="fatherDiv" class="employees__item">
+						<img src="./images/team(1).png" alt="">
+						<h1 id="name1"></h1>
+						<p>Product Designer</p>
+						<ul class="social-links">
+							<li>
+								<a class="social-links__button" href="">
+									<svg class="social-links__icon">
+										<use href="images/sprite1.svg#instagram"></use>
+									</svg>
+								</a>
+							</li>	
+							<li>
+								<a class="social-links__button" href="">
+									<svg class="social-links__icon">
+										<use href="images/sprite1.svg#twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a class="social-links__button" href="">
+									<svg class="social-links__icon">
+										<use href="images/sprite1.svg#facebook"></use>
+									</svg>
+								</a>
+							</li>	
+							<li>
+								<a class="social-links__button" href="">
+									<svg class="social-links__icon1">
+										<use href="images/sprite1.svg#linkedin"></use>
+									</svg>
+								</a>
+							</li>	
+						</ul>
+					</li>
+					<li class="employees__item">
+						<img src="./images/team(2).png" alt="">
+						<h1 id="name2"></h1>
+						<p>Frontend Developer</p>
+						<ul class="social-links">
+							<li>
+								<a class="social-links__button" href="">
+									<svg class="social-links__icon">
+										<use href="images/sprite1.svg#instagram"></use>
+									</svg>
+								</a>
+							</li>	
+							<li>
+								<a class="social-links__button" href="">
+									<svg class="social-links__icon">
+										<use href="images/sprite1.svg#twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a class="social-links__button" href="">
+									<svg class="social-links__icon">
+										<use href="images/sprite1.svg#facebook"></use>
+									</svg>
+								</a>
+							</li>	
+							<li>
+								<a class="social-links__button" href="">
+									<svg class="social-links__icon1">
+										<use href="images/sprite1.svg#linkedin"></use>
+									</svg>
+								</a>
+							</li>	
+						</ul>
+					</li>
+					<li class="employees__item">
+						<img src="./images/team(3).png" alt="">
+						<h1 id="name3"></h1>
+						<p>Marketing</p>
+						<ul class="social-links">
+							<li>
+								<a class="social-links__button" href="">
+									<svg class="social-links__icon">
+										<use href="images/sprite1.svg#instagram"></use>
+									</svg>
+								</a>
+							</li>	
+							<li>
+								<a class="social-links__button" href="">
+									<svg class="social-links__icon">
+										<use href="images/sprite1.svg#twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a class="social-links__button" href="">
+									<svg class="social-links__icon">
+										<use href="images/sprite1.svg#facebook"></use>
+									</svg>
+								</a>
+							</li>	
+							<li>
+								<a class="social-links__button" href="">
+									<svg class="social-links__icon1">
+										<use href="images/sprite1.svg#linkedin"></use>
+									</svg>
+								</a>
+							</li>	
+						</ul>
+					</li>
+					<li class="employees__item">
+						<img src="./images/misha.png" alt="">
+						<h1 id="name4"></h1>
+						<p>UI Designer</p>	
+						<ul class="social-links">
+							<li>
+								<a class="social-links__button" href="https://www.instagram.com/_mr.misha12/">
+									<svg class="social-links__icon">
+										<use href="images/sprite1.svg#instagram"></use>
+									</svg>
+								</a>
+							</li>	
+							<li>
+								<a class="social-links__button" href="">
+									<svg class="social-links__icon">
+										<use href="images/sprite1.svg#twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a class="social-links__button" href="">
+									<svg class="social-links__icon">
+										<use href="images/sprite1.svg#facebook"></use>
+									</svg>
+								</a>
+							</li>	
+							<li>
+								<a class="social-links__button" href="">
+									<svg class="social-links__icon1">
+										<use href="images/sprite1.svg#linkedin"></use>
+									</svg>
+								</a>
+							</li>	
+						</ul>							
+					</li>
+				</ul> 
+			</div>	
+		</section> 
+		<section class="regularcustomers">
+			<div class="container">
+				<div class="customers">
+					<h1>Regular customers</h1>
+					<ul class="customers__list">
+						<li>
+							<a href="">
+								<svg class="customers__icon">
+									<use href="images/sprite1.svg#Client-1"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<svg class="customers__icon">
+									<use href="images/sprite1.svg#Client-2"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<svg class="customers__icon">
+									<use href="images/sprite1.svg#Client-3"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<svg class="customers__icon">
+									<use href="images/sprite1.svg#Client-4"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<svg class="customers__icon">
+									<use href="images/sprite1.svg#Client-5"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<svg class="customers__icon">
+									<use href="images/sprite1.svg#Client-6"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>	
+		</section>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="footerparent">
+				<div class="footer-linkinfo">
+					<section class="footer-info">
+						<a href=""><img class="footer-info__logo" src="./images/logofooter.svg" alt=""></a>
+							<ul class="footer-info__list">
+								<li class="footer-info__item1">Kyiv, Witosa 26</li>
+								<li class="footer-info__item">info@example.com</li>
+								<li class="footer-info__item">+48 782 782 949</li>
+							</ul>	
+					</section>
+				</div>
+				<section class="footer-links">
+					<h1>Join</h1>
+					<ul class="footer-links__list">
+						<li>
+							<a class="footer-links__button" href="">
+								<svg class="footer-links__icon">
+									<use href="images/sprite1.svg#instagram"></use>
+								</svg>
+							</a>
+						</li>	
+						<li>
+							<a class="footer-links__button" href="">
+								<svg class="footer-links__icon">
+									<use href="images/sprite1.svg#twitter"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a class="footer-links__button" href="">
+								<svg class="footer-links__icon">
+									<use href="images/sprite1.svg#facebook"></use>
+								</svg>
+							</a>
+						</li>	
+						<li>
+							<a class="footer-links__button" href="">
+								<svg class="footer-links__icon1">
+									<use href="images/sprite1.svg#linkedin"></use>
+								</svg>
+							</a>
+						</li>	
+					</ul>
+				</section>
+				
+				<section class="footer-subscribesection">
+					<section class="footer-emailarea">
+						<h1>Subscribe to newsletter</h1>
+						<textarea name="footeremail" id="email" placeholder="E-mail"></textarea>
+					</section>
+					<section class="footer-mailing">
+						<button class="footer-mailing__button">Subscribe</button>
+					</section>
+				</section>
+			</div>
+		</div>		
+	</footer>
+	<div id="popup" class="popup">
+		<div class="popup__body">
+			<div class="popup__content">
+				<a href="#" class="popup__close">
+					<img src="./images/close.svg" alt="крестик"/>
+				</a>
+				<p class="popup__title">Leave your details, we will call you back</p>
+				<div class="popup__text">
+					<div class="form-field">
+						<input class="form-field__input" placeholder=" " type="text" name="name" id="name">
+						<label class="form-field__label" for="name">Name</label>
+						<svg class="form-field__icon">
+							<use href="./images/sprite1.svg#person-modal"></use>
+						</svg>
+					</div>
+					<div class="form-field">
+						<input class="form-field__input" placeholder=" " type="tel" name="tel" id="tel">
+						<label class="form-field__label" for="tel">Phone number</label>
+						<svg class="form-field__icon">
+							<use href="./images/sprite1.svg#modal-tel"></use>
+						</svg>
+					</div>
+					<div class="form-field">
+						<input class="password" placeholder=" " type="email" name="mail" id="mail">
+						 <label class="form-field__label" for="mail">Email</label>
+						<svg class="form-field__icon">
+							<use href="./images/sprite1.svg#modal-email"></use>
+						</svg> 
+					</div>
+					<div class="form-field">
+						<textarea class="commentary-area" name="comment" id="comment" rows="8" placeholder="Comment"></textarea>
+					</div>
+					<div class="checkbox">
+						<input id="rules" type="checkbox">
+						<p>I agree and accept the terms of the contract</p>
+					</div>
+					<div class="button-submit">
+						<button type="submit" id="submit" class="button">Send</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<script src="./popups.js"></script>
+	<script src="./modalWindow.js"></script>
+</body>
+</html>	

@@ -1,0 +1,31 @@
+.site-nav__list{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	& .site-nav__button:hover{
+		background-color:$accentColor;
+		color:#E5E5E5;
+	}
+}
+.site-nav{
+	margin-top: 94px;
+}
+.site-nav__button{
+	height: 38px;
+	font-family: Roboto;
+	margin-right: 8px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+	background: #F5F4FA;
+	border-radius: 4px;
+	border: 0;
+	padding-right: 22px;
+	padding-left: 22px;
+	padding-top: 6px;
+}

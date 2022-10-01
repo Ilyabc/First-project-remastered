@@ -1,0 +1,45 @@
+.regularcustomers{
+	justify-content: center;
+	margin: 0 auto;
+
+	& h1{
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		line-height: 42px;
+		text-align: center;
+		letter-spacing: 0.03em;
+		color: #212121;
+		max-width: 391px;
+	}
+}
+.customers h1{
+	text-align:center ;
+	margin:0 auto;
+	padding-top: 94px;
+	margin-bottom: 50px;
+}
+.customers__list{
+	display: flex;
+	padding-bottom: 90px;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+.customers__icon{
+	height: 92px;
+	border: 1px solid  #AFB1B8;
+	fill:  #AFB1B8;
+	border-radius: 4px;
+
+	&:hover{
+		fill: $accentColor;
+		border: 1px solid  $accentColor;
+	}
+}
+.customers .item{
+	text-align:center ;
+	margin: 0 auto;
+	box-sizing: border-box;
+}

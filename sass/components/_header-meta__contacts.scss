@@ -1,0 +1,93 @@
+.header-meta__contacts{
+	flex-wrap: wrap;
+
+	& li:not(:first-child){
+		margin-left :30px;
+	}
+}
+.line{
+	height: 4px;
+	width: 44px;
+	background: $accentColor;
+	border-radius: 2px;
+	position: absolute;
+}
+.line1{
+	height: 4px;
+	width: 58px;
+	background: $accentColor;
+	border-radius: 2px;
+	position: absolute;
+	top: 43px;
+}
+.contacts-email{
+	cursor: pointer;
+	display: flex;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color:$secondaryColor;
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover{
+		fill: $accentColor;
+		color:	$accentColor;
+		transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+	&:hover .contacts-email__symbol{
+		fill: $accentColor;
+		color:	$accentColor;
+		transition: 100ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+	& p{
+		padding-top: 3px;
+		padding-left: 9px;
+	}
+}
+.contacts-email__symbol{
+	transition: 100ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts-email__icon{
+	width: 16px;
+	height: 12px;
+	margin-top: 4px;
+}
+.contacts-phone{
+	cursor: pointer;
+	display: flex;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color:$secondaryColor;
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	& p{
+		padding-top: 2px;
+		padding-left: 9px;
+	}
+	&:hover{
+		fill: $accentColor;
+		color:	$accentColor;
+		transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+	&:hover .contacts-phone__symbol{
+		fill: $accentColor;
+		color:	$accentColor;
+		transition: 100ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+	& .contacts-phone__symbol{
+		transition: 100ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+}
+.contacts-phone__icon{
+	width: 10px;
+	height: 16px;
+	margin-top: 2px;
+}
+

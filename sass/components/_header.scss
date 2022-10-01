@@ -1,0 +1,18 @@
+.header{
+	background-color:white;
+	flex-wrap: wrap;
+
+	&-meta{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		text-align: end;
+	}
+
+}
+.header-meta__logo{
+	display: flex;
+	justify-content: center;
+}
+
+

@@ -1,0 +1,96 @@
+.burgerDiv{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	display: none;
+	background-color: red;
+	
+	
+}
+.burger__body{
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	width: 100%;
+	height: 100%;
+}
+.burger__close{
+	outline: none;
+		padding-top: 10px;
+		position: absolute;
+		top:8px;
+		right: 8px;
+		height: 30px;
+		width: 30px;
+		background-color: #FFFFFF;
+		border-radius: 50%;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		box-sizing: border-box;
+	
+		& img{
+			position: absolute;
+			top:5px;
+			right: 5px;
+		}
+}
+.burger__links {
+	margin-top: 15%;
+	margin-left: 10%;
+	& a{
+		display: block;
+		font-weight: 500;
+		font-size: 40px;
+		line-height: 47px;
+		letter-spacing: 0.02em;
+		color: #212121;
+		margin-bottom: 30px;
+	}
+	.burger__links-current{
+		color: $accentColor;
+	}
+}
+.burger__links-number{
+	color: $accentColor;
+	font-weight: 500;
+	font-size: 34px;
+	line-height: 47px;
+	letter-spacing: 0.02em;
+	margin-bottom: 5%;
+}
+.burger__links-email{
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	letter-spacing: 0.02em;
+	color: $secondaryColor;
+	
+}
+.burger__info{
+	margin-top: 50%;
+	margin-left: 10%;
+}
+.burger__social{
+	display: flex;
+	margin-top: 20%;
+	margin-left: 8%;
+}
+.burger__social-item:not(:last-child){
+	color: $accentColor;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right: 1px solid $accentColor;
+}
+.burger__social-item{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	color: $accentColor;
+	padding-left: 10px;
+}

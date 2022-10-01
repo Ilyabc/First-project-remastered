@@ -1,0 +1,115 @@
+.hide{
+	// display : flex;
+	opacity: 1;
+	animation-name:a1 ;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	display: none; 
+
+}
+@keyframes a1{
+	to{
+		opacity: 0;
+		// display: none;
+		min-height: 0;
+		min-width: 0;
+		padding: 0;
+		margin: 0;
+		border: 0;
+		transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	}
+}
+
+.projects__list{
+	margin-bottom: 120px;
+	display:flex;
+	flex-wrap: wrap;  
+	margin: 0 auto;
+	justify-content: center;
+	gap: 30px;
+
+	
+}
+.projects__item{
+	background-color: #FFFFFF;
+	width: 368px;
+	height: 404px;
+	margin-bottom: 30px;
+	border: 1px solid #EEEEEE;
+	box-sizing: border-box;
+	position: relative;
+
+	&:hover .projects__text{
+		opacity: 1;
+	}
+	&:hover{
+		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+	} 
+	& h1{
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 36px;
+		letter-spacing: 0.06em;
+		color: #212121;
+		padding-top: 20px;
+		padding-left: 24px;
+	}
+	& p{
+		padding-left: 24px;
+		padding-top: 4px;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 30px;
+		letter-spacing: 0.03em;
+		color: #757575;
+	}
+	& img{
+		max-width: 367px;
+		overflow: hidden;
+	}
+	&:hover .projects__text{
+		content: "";
+		transform: translateY(0);
+		transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+}
+.projects{ 
+	margin-top: 50px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.projects__text{
+	content: "";
+	position: absolute;
+	width: 367px;
+	top: 0;
+	left: 0;
+	height: 294px;
+	bottom: 10px;
+	transform: translateY(292px);
+	opacity: 0;
+	background: rgba(33, 150, 243, 0.9);
+	transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	-webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	& p{
+		padding-top: 63px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 28px;
+		letter-spacing: 0.03em;
+		color: #FFFFFF;	
+	}
+	& img{
+		overflow: hidden;
+	}
+}
+.projects__img{
+	overflow: hidden;
+	position: relative;
+}

@@ -1,0 +1,18 @@
+.footer-info__logo{	
+	padding-top: 80px;	
+	justify-content: center;
+	display: flex;	
+}
+.footer-info__list{
+	margin-top: 25px;
+}
+.footer-info__item{
+	@extend %footer-info__item;
+
+	color: rgba(255, 255, 255, 0.6);
+}
+.footer-info__item1{
+	@extend %footer-info__item;
+
+	color: #E5E5E5;
+}

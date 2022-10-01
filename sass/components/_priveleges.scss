@@ -1,0 +1,45 @@
+.privileges{
+	background-color:#FFFFFF;
+	min-height: 289px;
+	padding-top: 1px;
+}
+.property__item h1{
+	height: 16px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #212121;
+	margin-top: 30px;
+}
+.property{
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	margin-top: 94px;
+	margin-right: 15px;
+	margin-left: 15px;
+	text-align: center;
+}
+.property__item img{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.property__item div{
+	background-color:#F5F4FA;
+	text-align: center;
+}
+.property__item > p{
+	margin-top: 10px;
+	color: $secondaryColor;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 171%;
+	letter-spacing: 0.03em;
+	text-align: left;
+}

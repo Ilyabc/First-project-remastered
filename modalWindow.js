@@ -40,7 +40,7 @@ btnClose.addEventListener('click', function() {
         alert('Name must contain at least one upper case letter')
         return false
     }
-    if (pass.search(/[!@#$%^&*()\-=_+~[\]{}'"\\|,./<>?]/) !== -1) {
+    if (pass.search(/[!@#$%^&*()\-=_+~[\]{}'"\\|:;,./<>?]/) !== -1) {
         alert('Name may not contain symbols')
         return false
     }

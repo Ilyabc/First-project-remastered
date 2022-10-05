@@ -390,6 +390,9 @@ a {
   .footer-emailarea textarea {
     width: 350px;
   }
+  .site-nav__list li {
+    margin-bottom: 15px;
+  }
 }
 @media only screen and (min-width: 768px) {
   .hero h1 {
@@ -1815,17 +1818,14 @@ textarea {
   margin-left: 8%;
 }
 
-.burger__social-item:not(:last-child) {
-  color: #2194f2;
-  padding-right: 10px;
-  padding-left: 10px;
-  border-right: 1px solid #2194f2;
-}
-
 .burger__social-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
   color: #2194f2;
+  padding-left: 10px;
+  text-decoration: none;
+  border-right: 1px solid #2194f2;
+  padding-right: 10px;
   padding-left: 10px;
 }/*# sourceMappingURL=main.css.map */

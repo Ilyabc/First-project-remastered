@@ -81,16 +81,15 @@
 	margin-top: 20%;
 	margin-left: 8%;
 }
-.burger__social-item:not(:last-child){
-	color: $accentColor;
-	padding-right: 10px;
-	padding-left: 10px;
-	border-right: 1px solid $accentColor;
-}
+
 .burger__social-item{
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 22px;
 	color: $accentColor;
+	padding-left: 10px;
+	text-decoration: none;
+	border-right: 1px solid $accentColor;
+	padding-right: 10px;
 	padding-left: 10px;
 }

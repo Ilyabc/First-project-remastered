@@ -24,7 +24,7 @@ async function data (){
         name4.insertAdjacentHTML('afterend', `${userName4} ${lastName4}`  )        
     }
   data()
-  
 
+  
 
 

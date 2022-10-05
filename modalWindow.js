@@ -35,3 +35,4 @@ burgerClose.addEventListener('click', function() {
 // burgerClose.addEventListener('click', function() {
 //     burgerDiv.style.display = 'none';
 // })
+// console.log(contacts)

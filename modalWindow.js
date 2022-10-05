@@ -20,7 +20,6 @@ btnClose.addEventListener('click', function() {
         document.getElementById('tel').value=''
         document.getElementById('name').value=''
     } else { 
-        // alert("Cогласись с правилами конфедициальности")
         text.style.color='red'
         text.style.transition='500ms cubic-bezier(0.4, 0, 0.2, 1)';
 
